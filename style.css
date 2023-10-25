@@ -71,3 +71,20 @@ h2 {
 #passions {
     font-style: italic;
 }
+@media (max-width: 960px) {
+    .info-section {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 720px) {
+    .info-section {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 540px) {
+    .info-section {
+        padding: 2px;
+    }
+}
